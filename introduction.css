@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+/*.container {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}*/
+
+/* 프로필 이미지 */
+.img {
+  justify-content: center;
+}
+#profile {
+width: 150px;
+height: 150px;
+transform: scale(1); /* 이미지 사이즈 고정 */
+}
+
+.menu-bar {
+  position: fixed;
+  border: 0;
+  background-color: white;
+  display: block;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 목차 */
+.index h3 {
+  color: black;
+  opacity: 30%;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 목차 각 항목 반응형 커서 */
+.index h3:hover {
+  font-size: 1.1em;
+  opacity: 1;
+}
+section {
+  margin-left: 260px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  margin: 0;
+}
+
+
+/* MAIN part*/
+.name {
+  font-size: 65px;
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+}
+.contacts {
+  font-size: 15px;
+  opacity: 1;
+  font-family: 'Roboto Mono', monospace;
+}
+.main-INTRODUCTION {
+  font-size: 17px;
+  font-family: 'Noto Sans KR', sans-serif;
+  opacity: 0.8;
+}
+/* sns 픽토그램 */
+.fa-brands {
+  color: black;
+  opacity: 0.4
+}
+.fa-solid {
+  color: black;
+  opacity: 0.4
+}
+.sns-pictogram i {
+  margin-right: 40px;
+}
+/*픽토그램 반응형 커서*/
+footer i:hover {
+  transform: translate(0, -3px);
+}
+
+
+
+/* 커서 올릴 시 이미지 크게(모든 이미지 파일에 적용) */
+img:hover {
+  transform: scale(1.7);
+  -webkit-transform: scale(1.7); /* 크롬 */
+  -moz-transform: scale(1.7); /* 파이어폭스 */
+  -o-transform: scale(1.7); /* 오페라 */
+  z-index: 1;
+  align-items: center;
+}
+.roadmap r{
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+/* for layout */
+.roadmapbox {
+  width: 1000px;
+}
+
+/*Roadmap 이미지 고정*/
+#backend {
+width: 800px;
+height: 400px;
+transform: scale(1); /* 이미지 사이즈 고정 */
+}
+
+
+/* INTERESTS part */
+.INTERESTS-text {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+}
+.INTERESTS-img {
+  margin-bottom: 20px;
+}
+.INTERESTS-img img {
+  width:150px;
+  height: 150px;
+  transition: all 0.3s ease-in-out;
+}
